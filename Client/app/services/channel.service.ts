@@ -1,6 +1,7 @@
 import { Injectable, Inject } from '@angular/core';
 import { Subject } from 'rxjs/Subject';
 import { Observable } from 'rxjs/Observable';
+//12345 проверка
 
 /**
  * When SignalR runs it will add functions to the global $ variable
