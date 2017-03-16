@@ -1,0 +1,33 @@
+
+.flex {
+    flex: 1;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.commands {
+    display: flex;
+    flex-direction: column;
+}
+
+.commands > * {
+    margin: 0 4px 4px 4px;
+}
+
+.commands__input {
+    display: flex;
+    flex-direction: row;
+}
+
+.commands__input button {
+    margin-left: 8px;
+}
+
+
+.console {
+    background-color: darkblue;
+    color: white;    
+}
